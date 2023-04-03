@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app/app.component';
 import { AppHeaderComponent } from './app-header/app-header.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SplashScreenComponent } from './app/splashscreen/splash-screen/splash-screen.component';
 import { LoginPageComponent } from './app/login/login-page/login-page.component';
 import { DashboardComponent } from './app/dashboard/dashboard/dashboard.component';
@@ -17,7 +17,7 @@ import { DashboardComponent } from './app/dashboard/dashboard/dashboard.componen
     DashboardComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, FormsModule,
     ReactiveFormsModule,
     AppRoutingModule
   ],

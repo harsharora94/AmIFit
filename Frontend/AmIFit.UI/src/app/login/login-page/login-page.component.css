@@ -1,12 +1,17 @@
+.div-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .login-form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 20%;
+    margin: 10%;
     border: 1px solid black;
     border-radius: 14px;    
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 -3em 3em rgba(132, 140, 207), 0 0 0 2px rgb(132, 140, 207), 0.3em 0.3em 1em rgba(132, 140, 207);
+    width: 40%;
 }
 
 .login-field-wrapper {
@@ -23,10 +28,10 @@
 
 .submit-wrapper {
     padding: 20px;
-    cursor: pointer;
 }
 
-.submit-btn {
+.submit-btn {    
+    cursor: pointer;
     font-size: 23px;
     border-radius: 5px;
 }
