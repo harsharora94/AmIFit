@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SplashScreenComponent } from './app/splashscreen/splash-screen/splash-screen.component';
-import { LoginPageComponent } from './app/login/login-page/login-page.component';
-import { DashboardComponent } from './app/dashboard/dashboard/dashboard.component';
+import { DashboardComponent } from './dashboard/dashboard/dashboard.component';
+import { LoginPageComponent } from './login/login-page/login-page.component';
+import { SplashScreenComponent } from './splashscreen/splash-screen/splash-screen.component';
 
 const routes: Routes = [
   {
