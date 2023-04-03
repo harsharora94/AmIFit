@@ -1,0 +1,9 @@
+.appLogo {
+    background: url("../../assets/Logo_AmIFit.png");
+    background-repeat: no-repeat;
+  max-width: 100%;
+  background-position: center;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+}
