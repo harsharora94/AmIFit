@@ -1,1 +1,14 @@
-<p>login-page works!</p>
+<form class="login-form" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <h4>Login</h4>
+    <div class="login-field-wrapper">
+        <label for="user-name">UserName: </label>
+        <input class="login-field" id="user-name" type="text" formControlName="userName">
+    </div>
+    <div class="login-field-wrapper">
+        <label for="password">Password: </label>
+        <input class="login-field" id="password" type="password" formControlName="password">
+    </div>
+    <div class="submit-wrapper">
+        <button class="submit-btn" type="submit" [disabled]="!loginForm.valid">Log In</button>
+    </div>
+</form>

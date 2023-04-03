@@ -1,0 +1,32 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20%;
+    border: 1px solid black;
+    border-radius: 14px;    
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.login-field-wrapper {
+    padding: 20px;
+    font-weight: 500;
+    font-family: cursive;    
+    display: flex;
+    flex-direction: column;
+}
+
+.login-field {
+    border-radius: 6px;
+}
+
+.submit-wrapper {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    font-size: 23px;
+    border-radius: 5px;
+}
