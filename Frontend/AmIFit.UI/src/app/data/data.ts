@@ -3,7 +3,7 @@ import { BodyTemperature } from "../model/bodytemperature";
 export const readingList: BodyTemperature[] = [
   {
     reading: 98,
-    timestamp: "2023-04-06 14:11:00"
+    timestamp: "2023-04-06 15:11:00"
   },
   {
     reading: 99,
